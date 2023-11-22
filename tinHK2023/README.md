@@ -29,19 +29,19 @@
 	27.C
 	28.C
 ## Tự luận:
-Câu 1. Danh sách trường khoá: Mã môn học, (Mã môn học, Môn học).
- Khoá chính: Mã môn học.
-Câu 2. Danh sách các khoá: Mã học sinh,Số CCCD và tất cả các nhóm trường chứa ít nhất một trong hai trường Mã học sinh, Số CCCD.
-Có thể chọn Khoá chính là: Mã học sinh hay số CCCD.
-Câu 3. Danh sách khoá: (Mã học sinh, Mã môn học), (Mã học sinh, Mã môn điểm).
-Khoá chính: (Mã học sinh, Mã môn học).
-Câu 4. Mã môn học là khoá ngoài của bảng C, tham chiếu đến khoá chính của bảng A.
-Nếu chọn Mã học sinh là khoá chính của bảng B thì Mã học sinh là khoá ngoài của bảng C, tham chiếu đến khoá chính của bảng B
-Câu 5. Danh sách khoá: Số đăng kí, (Số khung, số máy), tất cả các nhóm trường có chứa ít nhất một trong hai khoá Số đăng kí và  (Số khung, số máy). 
-Khoá chính: Số đăng kí.
-Câu 6. Số CCCD
-Câu 7. Bảng E có khoá ngoài Số đăng kí tham chiếu đến khoá chính của bảng D
-Câu 8. 
+	Câu 1. Danh sách trường khoá: Mã môn học, (Mã môn học, Môn học).
+ 		Khoá chính: Mã môn học.
+	Câu 2. Danh sách các khoá: Mã học sinh,Số CCCD và tất cả các nhóm trường chứa ít nhất một trong hai trường Mã học sinh, Số CCCD.
+		Có thể chọn Khoá chính là: Mã học sinh hay số CCCD.
+	Câu 3. Danh sách khoá: (Mã học sinh, Mã môn học), (Mã học sinh, Mã môn điểm).
+		Khoá chính: (Mã học sinh, Mã môn học).
+	Câu 4. Mã môn học là khoá ngoài của bảng C, tham chiếu đến khoá chính của bảng A.
+		Nếu chọn Mã học sinh là khoá chính của bảng B thì Mã học sinh là khoá ngoài của bảng C, tham chiếu đến khoá chính của bảng B
+	Câu 5. Danh sách khoá: Số đăng kí, (Số khung, số máy), tất cả các nhóm trường có chứa ít nhất một trong hai khoá Số đăng kí và  (Số khung, số máy). 
+		Khoá chính: Số đăng kí.
+	Câu 6. Số CCCD
+	Câu 7. Bảng E có khoá ngoài Số đăng kí tham chiếu đến khoá chính của bảng D
+	Câu 8. 
 ```sql
 CREATE TABLE monhoc (
 	mamh CHAR (5),
