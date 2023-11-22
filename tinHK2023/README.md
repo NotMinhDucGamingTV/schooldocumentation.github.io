@@ -1,6 +1,7 @@
 Đáp án: 
+
 Trắc nghiệm
-1.C	2.B	3.D	4.D	5.A	6.D	7.C	8.A	9.D	10.B	11.B	12.A 13.A	14.B	15.C
+1.C	2.B	3.D	4.D	5.A	6.D	7.C	8.A	9.D	10.B	11.B	12.A    13.A	14.B	15.C
 16.A	17.B	18.A	19.B	20.B	21.A	22.B	23.C	24.A	25.B	26.A	27.C	28.C
 Tự luận:
 Câu 1. Danh sách trường khoá: Mã môn học, (Mã môn học, Môn học).
@@ -16,7 +17,7 @@ Khoá chính: Số đăng kí.
 Câu 6. Số CCCD
 Câu 7. Bảng E có khoá ngoài Số đăng kí tham chiếu đến khoá chính của bảng D
 Câu 8. 
-```
+```sql
 CREATE TABLE monhoc (
 	mamh CHAR (5),
 	tenmh VARCHAR (64),
@@ -25,7 +26,7 @@ CREATE TABLE monhoc (
 ALTER TABLE monhoc ADD PRIMARY KEY (mamh);
 ```
 Câu 9.
-```
+```sql
 CREATE TABLE hocsinh (
 	mahs 	 CHAR (6),
 	cccd 	 CHAR (12),
@@ -36,12 +37,12 @@ CREATE TABLE hocsinh (
 ALTER TABLE hocsinh ADD PRIMARY KEY (mahs);
 ```
 Câu 10.
-```
+```sql
 ALTER TABLE hocsinh 
 CHANGE COLUMN ngsinh ngaysinh DATE;
 ```
 Câu 11.
-```
+```sql
 CREATE TABLE diemmonhoc (
 	mahs 	 CHAR (6),
 	mamh	 CHAR (5),
@@ -54,7 +55,7 @@ ALTER TABLE ADD FOREGIN KEY mh REFERENCES monhoc(mamh);
 ALTER TABLE ADD CONSTRAINT dm CHECK (diem BETWEEN0 AND 10);
 ```
 Câu 12. 
-```
+```sql
 INSERT INTO monhoc VALUES
 	(‘MAT10’, ‘Toán học’),
 	(‘MAT11’, ‘Toán học’),
@@ -63,17 +64,17 @@ INSERT INTO monhoc VALUES
 	(‘LIT10’, ‘Ngữ văn’);
  ```
 Câu 13.
-```
+```sql
 UPDATE monhoc
 SET tenmh = ‘Toán học’
 WHERE mamh = ‘MAT10’ OR mamh = ‘MAT 11’;
 ```
 Câu 14.
-```
+```sql
 DELETE FROM monhoc WHERE mamh = ‘LIT10’;
 ```
 Câu 15. 
-```
+```sql
 SELECT * FROM monhoc;
 ```
 Câu 16. 
