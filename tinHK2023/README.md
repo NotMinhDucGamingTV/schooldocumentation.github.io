@@ -1,34 +1,34 @@
 # Đáp án:
-## Trắc nghiệm\n
-1.C
-2.B
-3.D
-4.D
-5.A
-6.D
-7.C
-8.A
-9.D
-10.B
-11.B
-12.A
-13.A
-14.B
-15.C
-16.A
-17.B
-18.A
-19.B
-20.B
-21.A
-22.B
-23.C
-24.A
-25.B
-26.A
-27.C
-28.C
-Tự luận:
+## Trắc nghiệm
+	1.C
+	2.B
+	3.D
+	4.D
+	5.A
+	6.D
+	7.C
+	8.A
+	9.D
+	10.B
+	11.B
+	12.A
+	13.A
+	14.B
+	15.C
+	16.A
+	17.B
+	18.A
+	19.B
+	20.B
+	21.A
+	22.B
+	23.C
+	24.A
+	25.B
+	26.A
+	27.C
+	28.C
+## Tự luận:
 Câu 1. Danh sách trường khoá: Mã môn học, (Mã môn học, Môn học).
  Khoá chính: Mã môn học.
 Câu 2. Danh sách các khoá: Mã học sinh,Số CCCD và tất cả các nhóm trường chứa ít nhất một trong hai trường Mã học sinh, Số CCCD.
