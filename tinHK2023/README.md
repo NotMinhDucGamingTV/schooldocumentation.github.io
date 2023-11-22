@@ -41,7 +41,7 @@
 		Khoá chính: Số đăng kí.
 	Câu 6. Số CCCD
 	Câu 7. Bảng E có khoá ngoài Số đăng kí tham chiếu đến khoá chính của bảng D
-	Câu 8. 
+Câu 8. 
 ```sql
 CREATE TABLE monhoc (
 	mamh CHAR (5),
